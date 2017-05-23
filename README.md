@@ -177,7 +177,6 @@ When multiple threads want to write to same position. We need to let them enter 
     Disadvantages: Use CPU but do nothing.
 
 (2) Mutex:
-
     A special type of variable that can restrict the access to a certain area ... 
    
     pthread_mutex_t global_mutex;
@@ -224,14 +223,4 @@ When multiple threads want to write to same position. We need to let them enter 
 
 
 
-
-
-Need to review:
-
-    The first several chapters : some definition & computing
-
-    CUDA architechture & CUDA Program Basic;
-
-    CUDA Scatter & Reduce.
-
-6-8 hours...
+To be continued...
